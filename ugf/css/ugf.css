@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END RESET */
+
+body{
+font-family: Arial, sans-serif;
+line-height: 130%;
+}
+#wrapper {
+margin: 0 auto;
+width: 780px;
+}
+#header {
+height:141px;
+background: url(../images/ugf-logo.png);
+}
+#menu{
+margin-top: -30px;
+}
+#interim {
+height: 154px;
+background: url(../images/Guy.png) no-repeat 53%;
+background-color: #81A9B8;
+margin-top: 9px;
+}
+#content{
+float:left;
+width: 100%;
+overflow:hidden;
+padding-bottom: 20px;
+}
+#left{
+float:left;
+width: 220px;
+background-color: #D9D1C1;
+padding-top:10px;
+padding-bottom: 600px;
+margin-bottom: -600px;
+}
+#main{
+float: left;
+padding: 10px 10px 10px 20px;
+width: 515px;
+margin-top: 10px;
+}
+#main a{
+font-size: 160%;
+}
+h1, h2 {
+color:#6592AC;
+}
+h1{
+font-size: 2em;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+h2{
+font-size: 1.25em;
+margin-left: 10px;
+margin-bottom: 5px;
+}
+p{
+margin-bottom: 10px;
+margin-left: 10px;
+}
+strong {
+font-weight:bold;
+}
+ul{
+}
+li{
+margin-bottom: 10px;
+list-style-type: disc;
+margin-left: 40px;
+}
+a {
+color: #693526;
+text-decoration:none;
+padding: 0 10px;
+font-weight: bold;
+}
+a:hover {
+color:#6592AC;
+}
+#footer {
+height: 30px;
+clear:both;
+color: #6592AC;
+font-size: 70%;
+text-align: right;
+border-top: 1px solid #C0CFDC;
+padding-right: 20px;
+}
+#footer a{
+color: #6592AC;;
+font-weight: normal;
+padding:0 3px;
+margin:0;
+}
