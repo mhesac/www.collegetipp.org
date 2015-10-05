@@ -8,7 +8,7 @@ Hosted with [Github Pages](https://pages.github.com/) as a [Project Page](https:
 
 # DNS
 
-Domain name is registered at GoDaddy and all DNS is there. The naked domain, `collegetipp.org`, is redirected to `www.collegetipp.org` according to [best practices](https://help.github.com/articles/about-custom-domains-for-github-pages-sites/). A CNAME record for `www.collegetipp.org` points to `safmt.github.io`.
+Domain name is registered at GoDaddy and all DNS is there. The naked domain, `collegetipp.org`, is redirected to `www.collegetipp.org` according to [best practices](https://help.github.com/articles/about-custom-domains-for-github-pages-sites/). A CNAME record for `www.collegetipp.org` points to `mhesac.github.io`.
 
 # History
 
